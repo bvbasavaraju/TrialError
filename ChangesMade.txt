@@ -24,3 +24,11 @@
 	possible outcome in repository:
 	+ In FirstText.txt, changes from "developer" branch would have been added.
 	+ New file ChangesMade.txt can be found only in "master" branch.
+	
+5.	"developer" branch rebased with respect to "master" branch.
+	
+	actions that will be taken after this:
+	stage, commit and push the master branch.
+	
+	possible outcome in repository:
+	+ ChangesMade.txt should also be seen at the developer branch
