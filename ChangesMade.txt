@@ -1,0 +1,26 @@
+1. 	FirstText.txt created in "master" branch.
+	Added, Change number 1 text in FirstText.txt
+	staged, commited and pushed to master branch
+2.	SecondText.txt create in "master" branch.
+	Added, Change number 2 text in SecondText.txt
+	staged, commited and pushed to master branch
+	
+3.	Created "developer" branch locally.
+	Added, Change number 3 text in FirstText.txt
+	staged, commited and pushed to developer branch.
+	This added, "developer" branch in repository.
+	In master branch, FirstText.txt will have only Change number 1,
+	But in developer branch, FirstText.txt will have Change number 1 as well as Change number 3
+	
+4.	Checkedout "master" branch
+	Merged "developer" to "master" branch
+	This merged the changes in FirstText.txt from developer branch to master branch (locally)
+	ChangesMade.txt created in this "master" branch
+	Updated the changes made till now.
+	
+	actions that will be taken after this:
+	stage, commit and push the master branch.
+	
+	possible outcome in repository:
+	+ In FirstText.txt, changes from "developer" branch would have been added.
+	+ New file ChangesMade.txt can be found only in "master" branch.
